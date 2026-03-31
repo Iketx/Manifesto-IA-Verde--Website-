@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, MessageCircle, Heart, MapPin, Github } from 'lucide-react';
-import logo from '../assets/logo.jpeg';
 
 export default function Footer() {
   return (
@@ -11,7 +10,7 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 flex items-center justify-center rounded-full overflow-hidden border-2 border-paper bg-white">
-                <img src={logo} alt="Logo IA Verde BH" className="w-full h-full object-cover" />
+                <img src="logo.jpeg" alt="Logo IA Verde BH" className="w-full h-full object-cover" />
               </div>
               <h3 className="font-serif text-2xl font-bold">IA Verde BH</h3>
             </div>

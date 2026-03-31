@@ -2,7 +2,6 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Leaf } from 'lucide-react';
 import { cn } from '../lib/utils';
-import logo from '../assets/logo.jpeg';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -21,7 +20,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link to="/" className="flex items-center gap-3 group">
               <div className="w-12 h-12 flex items-center justify-center rounded-full overflow-hidden border-2 border-olive transition-transform group-hover:scale-105">
-                <img src={logo} alt="Logo IA Verde BH" className="w-full h-full object-cover" />
+                <img src="logo.jpeg" alt="Logo IA Verde BH" className="w-full h-full object-cover" />
               </div>
               <span className="font-serif font-bold text-xl tracking-tight text-olive hidden sm:block">IA VERDE BH</span>
             </Link>
