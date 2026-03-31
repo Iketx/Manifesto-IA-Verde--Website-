@@ -60,18 +60,18 @@ export default function Voluntariado() {
             
             <div className="space-y-4">
               <a 
-                href="mailto:voluntarios@iaverdebh.org" 
+                href="mailto:manifestoiaverde@gmail.com" 
                 className="flex items-center gap-4 p-4 border-2 border-paper-dark hover:border-olive transition-colors group"
               >
                 <Mail className="w-6 h-6 text-olive group-hover:scale-110 transition-transform" />
                 <div>
                   <span className="block font-bold">E-mail</span>
-                  <span className="text-sm text-stone-500">voluntarios@iaverdebh.org</span>
+                  <span className="text-sm text-stone-500">manifestoiaverde@gmail.com</span>
                 </div>
               </a>
 
               <a 
-                href="https://wa.me/5531999999999" 
+                href="https://chat.whatsapp.com/BKgmcQdcHarBhedlp6CTrQ" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 border-2 border-paper-dark hover:border-olive transition-colors group"

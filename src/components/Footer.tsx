@@ -20,7 +20,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-4 pt-2">
               <a href="#" className="hover:text-white transition-colors"><Github className="w-6 h-6" /></a>
-              <a href="mailto:contato@iaverdebh.org" className="hover:text-white transition-colors"><Mail className="w-6 h-6" /></a>
+              <a href="mailto:manifestoiaverde@gmail.com" className="hover:text-white transition-colors"><Mail className="w-6 h-6" /></a>
             </div>
           </div>
 
@@ -40,7 +40,7 @@ export default function Footer() {
               <span>Belo Horizonte, MG</span>
             </div>
             <a 
-              href="https://wa.me/5531999999999" 
+              href="https://chat.whatsapp.com/BKgmcQdcHarBhedlp6CTrQ" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center gap-2 hover:underline"
