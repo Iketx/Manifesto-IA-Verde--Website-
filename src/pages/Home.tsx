@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, BookOpen, Users, ShieldCheck } from 'lucide-react';
+import { LOGO_URL } from '../constants';
 
 export default function Home() {
   return (
@@ -38,7 +39,7 @@ export default function Home() {
             >
               <div className="anime-card p-4 bg-white rotate-3">
                 <img 
-                  src="logo.jpeg" 
+                  src={LOGO_URL} 
                   alt="Manifesto IA Verde BH Logo" 
                   className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-500"
                 />

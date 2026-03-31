@@ -4,6 +4,10 @@ export interface QuizQuestion {
   correctAnswer: number;
 }
 
+// URL do Logo - Você pode alterar isso para um link do Google Drive, Imgur, etc.
+// Exemplo: export const LOGO_URL = "https://i.imgur.com/seu-logo.jpeg";
+export const LOGO_URL = "https://i.imgur.com/HvnIy7n.jpeg";
+
 export interface Lesson {
   id: number;
   title: string;
